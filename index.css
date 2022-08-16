@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #cccccc;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.main-center {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 60px;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    color: #4a4a4a;
+}
+
+.two-columns {
+    text-align: center;
+    font-size: 0;
+}
+
+.two-columns .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.img {
+    margin: 8px;
+    text-align: end;
+}
+
+.button {
+    color: #ffffff;
+    background-color: blue;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: black;
+    background-color: aqua;
+}
+
+.tree-column {
+    text-align: center;
+    font-size: 0;
+    padding: 35px 0 20px;
+}
+
+.tree-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tree-column .padding {
+    padding: 15px;
+}
+
+.tree-column .content {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.two-columns .last {
+    padding: 35px 0;
+}
+.two-columns .padding{
+    padding: 20px;
+}
+.two-columns .content{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+.sub:hover{
+              color: red;
+              text-decoration: none;
+}
